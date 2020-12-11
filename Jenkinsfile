@@ -1,4 +1,4 @@
 node {
     checkout scm
-    bat "echo "Hello World""
+    bat 'ECHO "Hello World"'
 }
