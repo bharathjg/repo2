@@ -1,3 +1,4 @@
-node{
-sh 'docker ps'
+node {
+    sh "#!/bin/bash \n" + 
+       "echo \"Hello from \$SHELL\""
 }
